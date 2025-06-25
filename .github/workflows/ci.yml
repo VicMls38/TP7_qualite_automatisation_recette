@@ -24,8 +24,5 @@ jobs:
       - name: Run linter
         run: npm run lint
 
-      - name: Run tests
-        run: npm test
-
       - name: Run Playwright tests
         run: npx start-server-and-test 'npm run dev' http://localhost:5173 'npm run test'
