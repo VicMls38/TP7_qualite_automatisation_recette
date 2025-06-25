@@ -7,7 +7,7 @@ test.describe('Catalogue produits', () => {
   });
  
   test('Affiche le titre de la page', async ({ page }) => {
-    await expect(page.getByRole('heading', { name: 'Catalogue produits' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Catalogue produits' })).toBeVisible
   });
  
   test('Affiche 10 produits', async ({ page }) => {
@@ -16,7 +16,7 @@ test.describe('Catalogue produits', () => {
   });
  
   test('Chaque produit affiche un nom et un prix', async ({ page }) => {
-    const items = await page.locator(' li');
+    const items = await page.locator('ul > li');
  
     for (let i = 0; i < 10; i++) {
       const text = await items.nth(i).innerText();
