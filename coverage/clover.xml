@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1750857090446" clover="3.2.0">
+  <project timestamp="1750857090446" name="All files">
+    <metrics statements="19" coveredstatements="11" conditionals="7" coveredconditionals="5" methods="9" coveredmethods="5" elements="35" coveredelements="21" complexity="0" loc="19" ncloc="19" packages="3" files="4" classes="4"/>
+    <package name="src">
+      <metrics statements="12" coveredstatements="11" conditionals="5" coveredconditionals="5" methods="6" coveredmethods="5"/>
+      <file name="App.jsx" path="C:\Users\victo\OneDrive\Bureau\Travail\Cours_MBA\MBA2\tp7_qualite_automatisation_recette\src\App.jsx">
+        <metrics statements="12" coveredstatements="11" conditionals="5" coveredconditionals="5" methods="6" coveredmethods="5"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="32" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mocks">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="browser.js" path="C:\Users\victo\OneDrive\Bureau\Travail\Cours_MBA\MBA2\tp7_qualite_automatisation_recette\src\mocks\browser.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="handlers.js" path="C:\Users\victo\OneDrive\Bureau\Travail\Cours_MBA\MBA2\tp7_qualite_automatisation_recette\src\mocks\handlers.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="generateProducts.js" path="C:\Users\victo\OneDrive\Bureau\Travail\Cours_MBA\MBA2\tp7_qualite_automatisation_recette\src\utils\generateProducts.js">
+        <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
