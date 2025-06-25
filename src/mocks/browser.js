@@ -1,5 +1,5 @@
 
-// browser
+// browser comment
 import { setupWorker } from 'msw/browser';
 import { handlers } from './handlers';
 
