@@ -11,7 +11,7 @@ test.describe('Catalogue produits', () => {
   });
  
   test('Affiche 10 produits', async ({ page }) => {
-    const items = await page.locator('azezaezaa');
+    const items = await page.locator('ul > li');
     await expect(items).toHaveCount(10);
   });
  
