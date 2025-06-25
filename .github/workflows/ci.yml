@@ -50,5 +50,3 @@ jobs:
           projectBaseDir: .
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_PROJECT_KEY: VicMls38_TP7_qualite_automatisation_recette
-          SONAR_ORGANIZATION: vicmls38
