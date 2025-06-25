@@ -7,11 +7,11 @@ test.describe('Catalogue produits', () => {
   });
  
   test('Affiche le titre de la page', async ({ page }) => {
-    await expect(page.getByRole('heading', { name: 'Catalogue produits' })).toBeVisible
+    await expect(page.getByRole('heading', { name: 'Catalogue produits' })).toBeVisible();
   });
  
   test('Affiche 10 produits', async ({ page }) => {
-    const items = await page.locator('ul > li');
+    const items = await page.locator('azezaezaa');
     await expect(items).toHaveCount(10);
   });
  
