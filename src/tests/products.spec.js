@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
  
 test.describe('Catalogue produits', () => {
   test.beforeEach(async ({ page }) => {
-    // Lance la page (modifie le port si différent de 5173)
+
     await page.goto('http://localhost:5173');
   });
  
