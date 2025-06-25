@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <h1>Catalogue produits</h1>
+      <h1>Catalogue produits : </h1>
       <button onClick={() => setSeed(seed + 1)}>Recharger</button>
 
       {isLoading && <p>Chargement...</p>}
