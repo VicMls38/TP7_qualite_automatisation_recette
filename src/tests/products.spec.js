@@ -16,7 +16,7 @@ test.describe('Catalogue produits', () => {
   });
  
   test('Chaque produit affiche un nom et un prix', async ({ page }) => {
-    const items = await page.locator('ul > li');
+    const items = await page.locator(' li');
  
     for (let i = 0; i < 10; i++) {
       const text = await items.nth(i).innerText();
