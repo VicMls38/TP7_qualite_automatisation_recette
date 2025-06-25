@@ -20,7 +20,7 @@ test.describe('Catalogue produits', () => {
  
     for (let i = 0; i < 10; i++) {
       const text = await items.nth(i).innerText();
-      expect(text).toMatch(/.+ — .+€$/); // Vérifie que le texte contient "Nom — Prix€"
+      expect(text).toMatch(/.+ — .+€$/);
     }
   });
 });
